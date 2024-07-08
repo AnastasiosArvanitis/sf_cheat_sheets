@@ -1,0 +1,70 @@
+### Experience Cheat Sheet
+
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>site/eventsv21.sfdc_cms__appPage/mainAppPage</members>
+		<members>site/eventsv21.sfdc_cms__brandingSet/Build_Your_Own_LWR</members>
+		<members>site/eventsv21.sfdc_cms__languageSettings/languages</members>
+		<members>site/eventsv21.sfdc_cms__mobilePublisherConfig/mobilePublisherConfig</members>
+		<members>site/eventsv21.sfdc_cms__route/Check_Password</members>
+		<members>site/eventsv21.sfdc_cms__route/Error</members>
+		<members>site/eventsv21.sfdc_cms__route/Forgot_Password</members>
+		<members>site/eventsv21.sfdc_cms__route/Home</members>
+		<members>site/eventsv21.sfdc_cms__route/Login</members>
+		<members>site/eventsv21.sfdc_cms__route/News_Detail__c</members>
+		<members>site/eventsv21.sfdc_cms__route/Register</members>
+		<members>site/eventsv21.sfdc_cms__route/Service_Not_Available</members>
+		<members>site/eventsv21.sfdc_cms__route/Too_Many_Requests</members>
+		<members>site/eventsv21.sfdc_cms__site/eventsv21</members>
+		<members>site/eventsv21.sfdc_cms__styles/print_css</members>
+		<members>site/eventsv21.sfdc_cms__styles/styles_css</members>
+		<members>site/eventsv21.sfdc_cms__theme/Build_Your_Own_LWR</members>
+		<members>site/eventsv21.sfdc_cms__themeLayout/gC_Exp_Theme_Layout</members>
+		<members>site/eventsv21.sfdc_cms__themeLayout/scopedHeaderAndFooter</members>
+		<members>site/eventsv21.sfdc_cms__themeLayout/snaThemeLayout</members>
+		<members>site/eventsv21.sfdc_cms__view/checkPasswordResetEmail</members>
+		<members>site/eventsv21.sfdc_cms__view/error</members>
+		<members>site/eventsv21.sfdc_cms__view/forgotPassword</members>
+		<members>site/eventsv21.sfdc_cms__view/home</members>
+		<members>site/eventsv21.sfdc_cms__view/login</members>
+		<members>site/eventsv21.sfdc_cms__view/newsDetail</members>
+		<members>site/eventsv21.sfdc_cms__view/register</members>
+		<members>site/eventsv21.sfdc_cms__view/serviceNotAvailable</members>
+		<members>site/eventsv21.sfdc_cms__view/tooManyRequests</members>
+		<name>DigitalExperience</name>
+	</types>
+	<types>
+		<members>site/eventsv21</members>
+		<name>DigitalExperienceBundle</name>
+	</types>
+	<types>
+		<members>eventsv21</members>
+		<name>DigitalExperienceConfig</name>
+	</types>
+	<types>
+		<members>eventsv2</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>eventsv2</members>
+		<name>Network</name>
+	</types>
+	<version>58.0</version>
+</Package>
+```
+---
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>site/eventsv21.sfdc_cms__route/name_of_site</members>
+		<members>site/eventsv21.sfdc_cms__route/name_of_site</members>
+		<members>site/eventsv21.sfdc_cms__view/name_of_site</members>
+		<members>site/eventsv21.sfdc_cms__view/name_of_site</members>
+		<name>DigitalExperience</name>
+	</types>
+	<version>58.0</version>
+</Package>
+```
