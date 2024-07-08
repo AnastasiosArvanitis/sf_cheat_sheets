@@ -1,0 +1,37 @@
+### Connected App Cheat Sheet
+
+- Create Certificate
+- Create New Connected App  
+  - Name : APIMAN eCRM BaseTampon - 
+  - Contact Email : salesforcegares@sncf.fr
+  - Enable OAuth Settings : True
+  - Callback URL : localhost:8080
+  - Use digital signatures : True
+    - Choose File : Choisir le certificat
+  - Selected OAuth Scopes : 
+    - Manage user data via APIs (api)
+    - MAnage user data via Web browsers (web)
+    - Perform requests at any time (refresh_token, offline_access)
+- App Manager :
+  - Manage (picklist sur la même ligne que l'app créée)
+    - Edit Policies:
+      - Permitted Users	
+        - Admin approved users are pre-authorized
+      - IP Relaxation	:
+        - Refresh token is valid until revoked
+      - Timeout Value : 15 minutes
+    - Profiles (manage profiles) : 
+      - System Administrator
+      - API User Platform
+    - Permission Sets (manage permission sets) : 
+      - GC_ECRM_WS_TAMPON_API
+    - View (picklist sur la même ligne que l'app créée)
+      - Manage Consumer Details (needs MFA) :
+        - Consumer Key -> Copier pour JWT claims (iss)
+
+---
+- openssl genrsa -out PrivKey.key 2048
+- openssl rsa -in PrivKey.key -pubout -out Public.key
+- openssl req -new -key PRivKey.key -out myCert.csr
+- openssl x509 -in myCert.csr -out myCert.crt -req -signkey PrivKey.key -days 356
+---
