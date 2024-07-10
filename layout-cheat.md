@@ -77,3 +77,13 @@ export default class GC_Exp_Theme_Layout extends LightningElement {}
     padding: 0;
 }
 ```
+---
+```
+<script>
+    var newStyleSheet = document.createElement("link");
+    newStyleSheet.rel = "stylesheet";
+    newStyleSheet.type = "text/css";
+    newStyleSheet.href = "/resource/GC_AGENDA_Ressources/css/main.css?" + Date.now();
+    document.getElementsByTagName("head")[0].appendChild(newStyleSheet);
+</script>
+```
